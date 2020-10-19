@@ -1,0 +1,15 @@
+<?php
+
+namespace codicastudio\Enum\Tests\Enums\Annotate;
+
+use codicastudio\Enum\Enum;
+
+/**
+ * @method static static Administrator()
+ * @method static static Moderator()
+ */
+final class AnnotateTestOneEnum extends Enum
+{
+    const Administrator = 'administrator';
+    const Moderator = 'moderator';
+}
